@@ -1,0 +1,23 @@
+[project]
+name = "bugzero"
+version = "0.1.0"
+description = "BugZero GitHub search CLI for vulnerability hunters"
+readme = "README.md"
+authors = [{ name = "BugZero Contributors" }]
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.31,<3",
+]
+
+[project.scripts]
+bugzero = "bugzero.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/your-org/bugzero"
+Repository = "https://github.com/your-org/bugzero"
+Issues = "https://github.com/your-org/bugzero/issues"
+
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
