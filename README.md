@@ -4,7 +4,7 @@
 
 **Current release:** 0.1.1
 
-BugXer0 is a streamlined command-line tool for security researchers who
+Command-line tool for security researchers who
 triage newly disclosed CVEs or hunt for 0-days in open-source codebases.
 It wraps the GitHub code search API to quickly scan repositories for
 vulnerable patterns.
