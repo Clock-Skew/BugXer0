@@ -1,6 +1,10 @@
-# BugZero v2
+# BugXer0
 
-BugZero v2 is a streamlined command-line tool for security researchers who
+![BugXer0 logo](Bug-Zero-logo-white.webp)
+
+**Current release:** 0.1.1
+
+BugXer0 is a streamlined command-line tool for security researchers who
 triage newly disclosed CVEs or hunt for 0-days in open-source codebases.
 It wraps the GitHub code search API to quickly scan repositories for
 vulnerable patterns.
@@ -17,19 +21,6 @@ vulnerable patterns.
   stored outside version control (e.g. `~/.config/bugzero/config.json`).
 - Structured JSON or human-readable output.
 
-## Layout
-```
-v2/
-  README.md
-  bugzero/
-    __init__.py
-    cli.py           # argparse CLI entrypoint
-    config.py        # token discovery and persistence helpers
-    github.py        # search execution + retry logic
-    queries.py       # saved query list management
-    render.py        # formatting utilities for console/json output
-    types.py         # dataclasses and typed helpers
-```
 
 ## Usage
 ### Install
